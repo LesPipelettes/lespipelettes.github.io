@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href \"https://valverdec.github.io/les-pipelettes/\" & cp dist/index.html dist/404.html & ngh --no-silent"
+    "deploy": "ng build --prod --base-href \"https://lespipelettes.github.io/\" & cp dist/index.html dist/404.html & ngh --branch=master --no-silent"
   },
   "private": true,
   "dependencies": {
